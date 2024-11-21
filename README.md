@@ -22,7 +22,7 @@ Visit https://desktop.github.com/download/
 Download the application appropriate for your operating system and the latest version (this is often the recommended one).
 Open the downloaded file and follow instructions
 Sign in on Github Desktop
-### WPILib
+## WPILib
 Visit https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html. The file to download and instructions to download are both located here.
 Scroll down until you see the download button.
 Install the latest release appropriate for your operating system. 
@@ -43,11 +43,10 @@ What is the command line? Command line is a way to interact with a computer prog
 
 What are some of the commands? The commands differ between operating systems.
 
-<b>Windows</b>
+<b>Windows</b><br>
 https://www.youtube.com/watch?v=Df2rx7b2tMY	
-Windows Command Line Tutorials - YouTube 
-
-<b>MacOS/Linux</b>
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGDV6SnbINlVUd0o2xT4JbMu
+<b>MacOS/Linux</b><br>
 https://www.youtube.com/watch?v=dWFMRp6KtlQ
 https://www.youtube.com/watch?v=2IaB93h9tE0
 
@@ -86,7 +85,8 @@ The robot is controlled by code that you have cloned from the repository. Naviga
 
 The following is the code in the file.
 
-```package frc.robot.commands;
+```
+package frc.robot.commands;
 
 
 import frc.robot.subsystems.Drivetrain;
@@ -109,7 +109,8 @@ public class AutonomousDistance extends SequentialCommandGroup {
         new DriveDistance(1, 10, drivetrain)
     );
   }
-}```
+}
+```
 
 ## Understanding FRC Code
 The AutonomousDistance class inherits properties from SequentialCommandGroup. 

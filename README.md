@@ -10,6 +10,8 @@ https://github.com/user-attachments/assets/1c975904-80d1-4456-b036-693e97f009c8
 FIRST Robotics Competition (FRC) is a robotics competition where each year, there is a new prompt and competitors have to create a robot for that prompt. A FRC match is made of several parts. <br>
 * Autonomous Period – When the robot operates without input from drive team. <br>
 * Teleoperated Period – The time when the drive team remotely controls the robots. <br>
+The robot is controlled by code and programs. The coding language we will use is Java and some applications that will be needed are WPILib and Github.
+
 ## Github
 Github is a developer platform used to create, manage, and share code. There are a couple of steps needed to install Github Desktop or Git.
 

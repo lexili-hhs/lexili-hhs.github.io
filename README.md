@@ -5,7 +5,10 @@ This unit will cover basic software application setup and how the software is us
 Basic programming and java knowledge is required, as well as access to an XRP minibot and a computer and Xbox controller if possible.
 ## What is FRC?
 
-https://github.com/user-attachments/assets/bd031688-271f-4b52-9003-999f6a2680e7<br>
+
+https://github.com/user-attachments/assets/de273912-e2ee-41f6-83b8-f5d64202b03c
+
+
 FIRST Robotics Competition (FRC) is a robotics competition where each year, there is a new prompt and competitors have to create a robot for that prompt. A FRC match is made of several parts. <br>
 * Autonomous Period – When the robot operates without input from drive team. <br>
 * Teleoperated Period – The time when the drive team remotely controls the robots. <br>

@@ -30,7 +30,7 @@ Github Desktop is the graphical interface for Git.<br>
 3. Install the latest release appropriate for your operating system. 
 4. Extract the Installer as shown below the download button in the website for your operating system.
 5. Open the installer and press the start button.
-6 .When prompted to choose the install mode, choose the “everything” mode.
+6. When prompted to choose the install mode, choose the “everything” mode.
 7. To download the VS Code, choose “Download for this computer only”. It is very important that VS Code is installed.
 8. Wait for the download to finish and press the finish button.
 9. There may be post-installation instructions after the download. Follow the instructions for your operating system from the website.
@@ -141,6 +141,27 @@ SequentialCommandGroup essentially runs commands in sequential order. Inside the
   <summary>Question: Now, try to Simulate the Robot Code, and select the Autonomous mode. What happens?</summary>
            Answer: The robot should more forward and turn automatically. 
 </details>
+
+# Unit 3 Overview
+
+## Description
+This unit will cover the two subsystems: Arm and DriveTrain, along with commands for the XRP minibot. The project in this unit will allow you to use commands to control the Arm and DriveTrain.
+
+## Prerequisites
+An XRP minibot that can successfully connect to your laptop is required for this unit.
+
+## What are the Arm and DriveTrain?
+The Arm of the minibot is controlled by a servo in the robot, and the angle can be controlled from 0-180 degrees. The main body of the minibot is called the DriveTrain, because it contains the two wheels that allow the robot to drive. An important thing to note is that the XRP robot turns using skid-steering. While the robot is turning some of the wheels, sometimes the front casters will be skidding. 
+
+## Commands
+The GitHub repository with the minibots code includes many existing commands to control the Arm and DriveTrain of the robot. For example, an important command for the minibot is called DriveDistance(), where the robot will drive for a specific distance and speed. 
+
+Types of commands include commands that run initial autonomous movement, drive the robot a certain distance, and turn the robot for a certain number of degrees or seconds. Using these built-in commands, you can move the robot’s drivetrain whichever way you want as long as it’s within the robot’s constraints.
+
+Commands will extend, or inherit from, the Command class. There is also the SequentialCommandGroup.
+
+## PROJECT: Creating a Command for the DriveTrain
+
 
 
 

@@ -5,8 +5,8 @@ This unit will cover basic software application setup and how the software is us
 Basic programming and java knowledge is required, as well as access to an XRP minibot and a computer and Xbox controller if possible.
 ## What is FRC?
 FIRST Robotics Competition (FRC) is a robotics competition where each year, there is a new prompt and competitors have to create a robot for that prompt. A FRC match is made of several parts. <br>
-Autonomous Period – When the robot operates without input from drive team. <br>
-Teleoperated Period – The time when the drive team remotely controls the robots. <br>
+* Autonomous Period – When the robot operates without input from drive team. <br>
+* Teleoperated Period – The time when the drive team remotely controls the robots. <br>
 ## Github
 Github is a developer platform used to create, manage, and share code. There are a couple of steps needed to install Github Desktop or Git.
 
@@ -17,26 +17,24 @@ Instructions for downloading Git are located in the following link: https://git-
 ### Installing Github Desktop
 Github Desktop is the graphical interface for Git.<br>
  
-<ol><li>Visit https://github.com/ and sign up for an account</li>
-<li>Visit https://desktop.github.com/download/</li>
-<li>Download the application appropriate for your operating system and the latest version (this is often the recommended one).</li>
-<li>Open the downloaded file and follow instructions</li>
-<li>Sign in on Github Desktop</li>
+1. Visit https://github.com/ and sign up for an account
+2. Visit https://desktop.github.com/download/
+3. Download the application appropriate for your operating system and the latest version (this is often the recommended one).
+4. Open the downloaded file and follow instructions
+5. Sign in on Github Desktop
 
 </ol>
  
 ## WPILib
-<ol>
-<li>Visit https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html. The file to download and instructions to download are both located here.</li>
-<li>Scroll down until you see the download button.</li>
-<li>Install the latest release appropriate for your operating system. </li>
-<li>Extract the Installer as shown below the download button in the website for your operating system.</li>
-<li>Open the installer and press the start button.</li>
-<li>When prompted to choose the install mode, choose the “everything” mode.</li>
-<li>To download the VS Code, choose “Download for this computer only”. It is very important that VS Code is installed.</li>
-<li>Wait for the download to finish and press the finish button.</li>
-<li>There may be post-installation instructions after the download. Follow the instructions for your operating system from the website.</li>
-</ol>
+1. Visit https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html. The file to download and instructions to download are both located here.
+2. Scroll down until you see the download button.
+3. Install the latest release appropriate for your operating system. 
+4. Extract the Installer as shown below the download button in the website for your operating system.
+5. Open the installer and press the start button.
+6 .When prompted to choose the install mode, choose the “everything” mode.
+7. To download the VS Code, choose “Download for this computer only”. It is very important that VS Code is installed.
+8. Wait for the download to finish and press the finish button.
+9. There may be post-installation instructions after the download. Follow the instructions for your operating system from the website.
 
 # Unit 2 Overview
 ## Description
@@ -71,19 +69,19 @@ https://www.youtube.com/watch?v=HVsySz-h9r4
 
 ## Introduction to Hardware
 Each XRP bot comes equipped with…
-<ul><li>A servo</li>
-<li>Two drive motors</li>
-<li>A range finder</li>
-<li>Line-finding sensor</li></ul>
+* A servo
+* Two drive motors
+* A range finder
+* Line-finding sensor
 
 ## PROJECT: Running the Robot
-<ol><li>Open Team670’s GitHub and find 2024-Minibots. </li>
-<li>Clone this repository and open with WPILib VS code</li>
-<li>Turn the robot on</li>
-<li>Connect to the robot’s wifi on your laptop- password should be team670</li>
-<li>Press Ctrl-Shift-P/Cmd-Shift-P and enter Simulate Robot Code</li>
-<li>To connect the controller, drag Joysticks[0] to System Joysticks and select teleop.</li>
-<li>Now, you should be able to manually control your robot.</li></ol>
+1. Open Team670’s GitHub and find 2024-Minibots.
+2. Clone this repository and open with WPILib VS Code
+3.Turn the robot on
+4. Connect to the robot’s wifi on your laptop- password should be team670
+5. Press Ctrl-Shift-P/Cmd-Shift-P and enter Simulate Robot Code
+6. To connect the controller, drag Joysticks[0] to System Joysticks and select teleop.
+7. Now, you should be able to manually control your robot.
 
 
 ## Introduction to Software
@@ -120,8 +118,12 @@ public class AutonomousDistance extends SequentialCommandGroup {
 ```
 
 ## Understanding FRC Code
-The AutonomousDistance class inherits properties from SequentialCommandGroup. <br>
+The AutonomousDistance class inherits properties from SequentialCommandGroup. <br><br>
+
 SequentialCommandGroup essentially runs commands in sequential order. Inside the AutonomousDistance class is a constructor with a Drivetrain parameter, or what moves the robot. In the constructor, it uses the method addCommands() and inside, there are many commands which tell the Drivetrain to do specific actions in sequential order.
 
 ### Try It Yourself
 Now, try to Simulate the Robot Code, and select the Autonomous mode. What happens?
+
+Answer:
+>! The robot should more forward and turn automatically.

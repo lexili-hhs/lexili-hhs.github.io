@@ -96,7 +96,7 @@ Each XRP bot comes equipped with…
 ## PROJECT: Running the Robot
 1. Open Team670’s GitHub and find 2024-Minibots.
 2. Clone this repository and open with WPILib VS Code
-3.Turn the robot on
+3. Turn the robot on
 4. Connect to the robot’s wifi on your laptop- password should be team670
 5. Press Ctrl-Shift-P/Cmd-Shift-P and enter Simulate Robot Code
 6. To connect the controller, drag Joysticks[0] to System Joysticks and select teleop.

@@ -23,7 +23,6 @@ Github Desktop is the graphical interface for Git.<br>
 4. Open the downloaded file and follow instructions
 5. Sign in on Github Desktop
 
-</ol>
  
 ## WPILib
 1. Visit https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html. The file to download and instructions to download are both located here.
@@ -48,7 +47,7 @@ What are some of the commands? The commands differ between operating systems. <b
 
 <b>Windows</b><br>
 https://www.youtube.com/watch?v=Df2rx7b2tMY	 <br>
-https://www.youtube.com/playlist?list=PL6gx4Cwl9DGDV6SnbINlVUd0o2xT4JbMu <br>
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGDV6SnbINlVUd0o2xT4JbMu <br><br>
 <b>MacOS/Linux</b><br>
 https://www.youtube.com/watch?v=dWFMRp6KtlQ <br>
 https://www.youtube.com/watch?v=2IaB93h9tE0 <br>
@@ -57,22 +56,37 @@ https://www.youtube.com/watch?v=2IaB93h9tE0 <br>
 Remember the software we installed for the command-line in Unit 1? That software is called git. Git commands can only be run in command lines.
 
 ## Understanding Github 
-Vocabulary<br>
-Repository – Where the code is stored and files are stored and shared.<br>
-Branch – New, separate version of the main repository.<br>
-Main branch/Master branch<br>
-Clone – <br>
-Commit – <br>
+**Vocabulary**<br>
+* Repository – Where the code is stored and files are stored and shared <br>
+* Branch – New, separate version of the main repository <br>
+   * Main branch – Repository "default" branch
+* Clone – Copy repository to local machine <br>
+* Fetch – Grab changes from online repository, but do not apply them yet
+* Commit – Save your work locally with a description and message <br>
+* Pull – Grab changes from the online repo and add them to your files.
+* Push – Send changes to the online repo.
 
 ## Basic Git Commands
 https://www.youtube.com/watch?v=HVsySz-h9r4
 
 ## Introduction to Hardware
 Each XRP bot comes equipped with…
-* A servo
-* Two drive motors
-* A range finder
-* Line-finding sensor
+<details> 
+  <summary>A servo</summary>
+          Specialized motors with a feedback mechanism.
+</details>
+<details> 
+  <summary>Two drive motors</summary>
+          Component that moves the minibot.
+</details>
+<details> 
+  <summary>Range finder</summary>
+          Finds distance from an object.
+</details>
+<details> 
+  <summary>Line-finding sensor</summary>
+          Helps to find and follow lines.
+</details>
 
 ## PROJECT: Running the Robot
 1. Open Team670’s GitHub and find 2024-Minibots.
@@ -82,7 +96,6 @@ Each XRP bot comes equipped with…
 5. Press Ctrl-Shift-P/Cmd-Shift-P and enter Simulate Robot Code
 6. To connect the controller, drag Joysticks[0] to System Joysticks and select teleop.
 7. Now, you should be able to manually control your robot.
-
 
 ## Introduction to Software
 The robot is controlled by code that you have cloned from the repository. Navigate to the file called AutonomousDistance.java. The path should be XRPminibots/src/main/java/frc/robot/commands/AutonomousDistance.java. <br>
@@ -117,13 +130,17 @@ public class AutonomousDistance extends SequentialCommandGroup {
 }
 ```
 
-## Understanding FRC Code
-The AutonomousDistance class inherits properties from SequentialCommandGroup. <br><br>
+### Understanding FRC Code
+The AutonomousDistance class inherits properties from SequentialCommandGroup. <br>
 
 SequentialCommandGroup essentially runs commands in sequential order. Inside the AutonomousDistance class is a constructor with a Drivetrain parameter, or what moves the robot. In the constructor, it uses the method addCommands() and inside, there are many commands which tell the Drivetrain to do specific actions in sequential order.
 
 ### Try It Yourself
-Now, try to Simulate the Robot Code, and select the Autonomous mode. What happens?
 
-Answer:
->! The robot should more forward and turn automatically. !<
+<details> 
+  <summary>Question: Now, try to Simulate the Robot Code, and select the Autonomous mode. What happens?</summary>
+           Answer: The robot should more forward and turn automatically. 
+</details>
+
+
+
